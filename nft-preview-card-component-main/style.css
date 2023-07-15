@@ -1,0 +1,194 @@
+
+/* .container{
+    
+    height: 70vh;
+    width: 400px;
+    background-color: hsl(216, 46%, 63%);
+    
+
+}
+
+.container img{
+width: 300px;
+}
+.creation img{
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.creation{
+    display: flex;
+    flex-direction: row;
+} */
+
+body{
+ background-color: hsl(217, 54%, 11%);
+}
+
+
+.creator img{
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.photo img{
+    width: 300px;
+}
+
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 350px;
+    height: 80vh;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}   
+
+
+
+.photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.price{
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo h1{
+    margin-right: 90px;
+    color: hsl(0, 0%, 100%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 25px;
+    
+}
+
+.photo p{
+    color:hsl(0, 0%, 100%) ;
+    font-family: 'Outfit', sans-serif;
+    font-size: 19px;
+    margin-left: 30px;
+}
+.price-left-side {
+    margin-left: 19px;
+    color: hsl(178, 100%, 50%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+}
+
+.price-right{
+    margin-right: 20px;
+   color:  hsl(215, 51%, 70%);
+   font-family: 'Outfit', sans-serif;
+   font-size: 18px;
+}
+
+span.c1{
+    color:hsl(215, 51%, 70%) ;
+
+}
+span.c2{
+    color: hsl(0, 0%, 100%);
+}
+.creator{
+    border-top: 1px solid  hsl(215, 32%, 27%);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content:  flex-start;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-top: 10px;
+
+}
+
+span{
+    margin-left: 10px;
+    margin-top:18px;
+    
+}
+
+.creator img{
+    margin-top: 18px;
+}
+
+/* .photo img:hover{
+    position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 255, 247, .4);
+  display: none;
+}
+.photo{
+    position: relative;
+}
+
+.imageoverlay .eye{
+    background: white;
+    width: 25px;
+    height: 25px;
+    display: block;
+    margin: auto;
+} */
+.overlayPar {
+    position: relative;
+    
+
+  }
+  
+  .imgoverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 255, 247, .4);
+    display: none;
+    
+  }
+  
+  .imgoverlay .eye {
+    /* background: white;
+    width: 25px;
+    height: 25px; */
+    display: block;
+    margin: auto;
+    
+    
+  }
+  
+  .overlayPar:hover .imgoverlay  {
+    display: flex;
+    
+  }
+
+  .photo h1:hover{
+    color: hsl(178, 100%, 50%);
+  }
+
+  .c2:hover{
+    color:hsl(178, 100%, 50%);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
